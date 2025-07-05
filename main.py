@@ -2,7 +2,7 @@
 """
 import jax
 
-jax.distributed.initialize()
+#jax.distributed.initialize()
 
 from absl import app, flags
 from ml_collections import config_flags
