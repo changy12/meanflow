@@ -23,7 +23,7 @@ training:
 fid:
     device_batch_size: 20
     num_samples: 50000
-    cache_ref: YOUR_FID_CACHE_REF
+    cache_ref: fid_stat
 
 sampling:
     num_steps: 1
@@ -31,5 +31,5 @@ sampling:
 # Load checkpoints for eval or resuming training.
 # load_from: CKPT_PATH
 
-load_from: null
-eval_only: False
+load_from: ckpt
+eval_only: True
